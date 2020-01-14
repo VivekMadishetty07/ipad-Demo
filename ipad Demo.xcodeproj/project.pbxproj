@@ -14,6 +14,8 @@
 		E22A551623CE58F20003BF1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22A551423CE58F20003BF1F /* Main.storyboard */; };
 		E22A551823CE58F50003BF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22A551723CE58F50003BF1F /* Assets.xcassets */; };
 		E22A551B23CE58F50003BF1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22A551923CE58F50003BF1F /* LaunchScreen.storyboard */; };
+		E22A552323CE5A8A0003BF1F /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = E22A552223CE5A8A0003BF1F /* movies.json */; };
+		E22A552523CE5A920003BF1F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A552423CE5A920003BF1F /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E22A551723CE58F50003BF1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22A551A23CE58F50003BF1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22A551C23CE58F50003BF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22A552223CE5A8A0003BF1F /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		E22A552423CE5A920003BF1F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E22A551023CE58F20003BF1F /* MasterViewController.swift */,
 				E22A551223CE58F20003BF1F /* DetailViewController.swift */,
 				E22A551423CE58F20003BF1F /* Main.storyboard */,
+				E22A552423CE5A920003BF1F /* SwiftyJSON.swift */,
+				E22A552223CE5A8A0003BF1F /* movies.json */,
 				E22A551723CE58F50003BF1F /* Assets.xcassets */,
 				E22A551923CE58F50003BF1F /* LaunchScreen.storyboard */,
 				E22A551C23CE58F50003BF1F /* Info.plist */,
@@ -130,6 +136,7 @@
 			files = (
 				E22A551B23CE58F50003BF1F /* LaunchScreen.storyboard in Resources */,
 				E22A551823CE58F50003BF1F /* Assets.xcassets in Resources */,
+				E22A552323CE5A8A0003BF1F /* movies.json in Resources */,
 				E22A551623CE58F20003BF1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				E22A550D23CE58F20003BF1F /* AppDelegate.swift in Sources */,
 				E22A550F23CE58F20003BF1F /* SceneDelegate.swift in Sources */,
 				E22A551123CE58F20003BF1F /* MasterViewController.swift in Sources */,
+				E22A552523CE5A920003BF1F /* SwiftyJSON.swift in Sources */,
 				E22A551323CE58F20003BF1F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
